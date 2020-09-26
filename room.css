@@ -1,0 +1,89 @@
+.room-page-container {
+  padding: 25px 65px;
+  background-image: linear-gradient(to bottom, #534439 0%, #A37249 71%, #BAA89B 100%);
+}
+
+.back-button {
+  padding: 10px 0;
+  font-size: 2rem;
+  color: #C3FCF1;
+  display: inline;
+}
+
+.back-button:hover {
+  font-size: 2.1rem;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
+.room-details {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.room-page {
+  padding: 40px 25px 20px;
+}
+
+.room-page-image {
+  display: inline;
+}
+
+.room-slide-container {
+  max-width: 70%;
+}
+
+.slide-control {
+  max-width: 70px;
+  padding-top: 10px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+table {
+  margin-bottom: 20px
+}
+
+td {
+  padding: 5px 30px;
+}
+
+.room-book {
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  bottom: 40%;
+  right: 1%;
+  padding: 15px;
+  background: red;
+  border-radius: 50px;
+}
+
+.room-button {
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  bottom: 15%;
+  right: 5%;
+  margin: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #FFF;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #534439 0%, #A37249 100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.room-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+  margin: 8px 10px 12px;
+  text-decoration: none;
+  color: #00C9AC;
+  background-position: right center;
+}

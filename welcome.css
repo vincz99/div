@@ -1,0 +1,56 @@
+html, body, .welcome-tag {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/bg.jpeg");
+}
+
+.welcome-tag {
+  background-color: rgba(163, 114, 73, 0.8);
+  text-align: center;
+  padding-top: 15%;
+}
+
+.vibace {
+  font-size: 5em;
+}
+
+.visit {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+.visit-button {
+  margin-right: 10px;
+  font-size: 1.8em;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url("images/bb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .welcome-tag {
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .vibace {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  .visit {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .visit-button {
+    margin-right: 8px;
+  }
+}

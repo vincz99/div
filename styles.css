@@ -1,0 +1,238 @@
+body {
+  font-family: 'Squada One', cursive;
+}
+
+/* navbar-section */
+span {
+  font-size: 1.3rem;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+.brand-container {
+  background-color: #a37249;
+  padding: 7.5rem 6rem 0;
+  font-weight: 400;
+}
+
+.brand-name {
+  font-family: 'Libre Baskerville', serif;
+  color: #000000;
+  font-size: 4.5rem;
+}
+
+.brand-link {
+  font-family: 'Squada One', cursive;
+  font-size: 1.3rem;
+  color: #C3FCF1;
+}
+
+.brand-link:hover {
+  font-size: 1.4rem;
+  color: #534439;
+}
+
+/* slider-section */
+.slider-container {
+  background-color: #a37249;
+  padding-bottom: 15px;
+}
+
+.slider {
+  padding: 0 5px 5px;
+  margin-bottom: 0;
+}
+
+.carousel-indicators li {
+  width: 2px;
+}
+
+li img {
+  border-radius: 4px;
+}
+
+/* slider-text */
+.carousel-caption {
+  position: absolute;
+  right: 25%;
+  bottom: 350px;
+  left: 6%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  color: #C3FCF1;
+  text-align: left;
+  border-radius: 5px;
+  background: rgba(83, 68, 57, 0.7);
+}
+
+.header {
+  color: black;
+  font-family: 'Squada One', cursive !important;
+  font-weight: 400;
+  font-size: 5em;
+}
+
+.caption-text {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: lighter;
+  font-size: 1.7em;
+  margin: 10px 0;
+}
+
+/* button-styles */
+.gradient-button {
+  margin: 100px 15px 15px 15px;
+  font-family: 'Squada One', cursive;
+  font-size: 2.3rem !important;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: #FFF;
+  width: 200px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-image: linear-gradient(to right, #534439 0%, #A37249 51%, #BAA89B 100%);
+  transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.gradient-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-position: right center;
+  margin: 100px 10px 12px;
+  color: #00C9AC;
+}
+
+/* toggle for button */
+.button-block {
+  display: none;
+}
+
+/* second-container */
+.second-container {
+  background-color: #DCA67A;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* button-sm */
+.about-book {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: rgba(163, 110, 67, 0.5);
+  border-color: black;
+  font-family: 'Squada One', cursive;
+  text-align: center;
+  color: #534440;
+  cursor: pointer;
+  border-width: 1.4px;
+  margin: 0 2px 0 2px;
+}
+
+.about-book:hover {
+  color: #fff;
+  background-color: rgba(163, 120, 80, 1);
+  border-color: rgba(83, 68, 77, 1);
+  border-width: thin;
+}
+
+.about-pg-hr {
+  margin: 33px auto;
+  width: 4%;
+  border-width: 6px;
+  border-bottom: none;
+  border-bottom-width: 0;
+  border-color: #808080;
+  border-style: dotted;
+}
+
+.about-container {
+  padding: 3em 5em;
+  text-align: center;
+  border-radius: 6px;
+  color: #C3FCF1;
+  background-color: #a37249;
+  font-family: 'Source Serif Pro', serif;
+}
+
+/* rooms-section */
+.third-container {
+  background-color: #FFEACE;
+  padding-top: 40px;
+  padding-bottom: 4%;
+}
+
+.our-rooms {
+  font-size: 3em;
+  padding: 4% 0 4% 2%;
+  font-weight: 900;
+}
+
+.room-ul {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+}
+
+.rooms-container {
+  background-color: #DCA67A;
+  padding: 2.5%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.room-hr {
+  width: inherit;
+  border-width: 1.8px;
+  border-bottom: none;
+  border-bottom-width: 0;
+  border-color: #808080;
+  border-style: solid;
+}
+
+.img-div {
+  max-width: 36%;
+}
+
+.room-img {
+  max-width: 350px;
+  max-height: 350px;
+  padding-right: 0;
+}
+
+.img-text {
+  padding-top: 30px;
+  padding-left: 0;
+}
+
+.btn-rooms {
+  margin-top: 20px;
+}
+
+.btn-rooms:hover {
+  background-color: rgba(163, 120, 80, 1);
+}
+
+/* footer-section */
+footer {
+  text-align: center;
+  background-color: #00C9AC;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: black;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
